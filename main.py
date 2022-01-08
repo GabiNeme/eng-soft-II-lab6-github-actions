@@ -22,11 +22,7 @@ def needleman_wunsch(seq_v, seq_w):
     for j in range(1, col):
       calcula_e_atribui_maximo(m, i, j)
   
-  # imprime matriz
-  print(m)
-  
-  # gera e imprime alinhamento
-  m.gera_alinhamento()
+  return m
 
 
 # Calcula o valor de uma nova célula, descobrindo

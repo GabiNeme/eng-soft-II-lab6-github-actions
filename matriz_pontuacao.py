@@ -59,5 +59,4 @@ class Matriz_pontuacao():
                 lin -= 1
         
         # imprime alinhamentos
-        print(alinh_v)
-        print(alinh_w)
+        return alinh_v, alinh_w
